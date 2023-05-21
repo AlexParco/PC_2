@@ -16,6 +16,9 @@
 		FA82DF262A19591C006DDBD3 /* PC_2vTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF252A19591C006DDBD3 /* PC_2vTests.swift */; };
 		FA82DF302A19591C006DDBD3 /* PC_2vUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF2F2A19591C006DDBD3 /* PC_2vUITests.swift */; };
 		FA82DF322A19591C006DDBD3 /* PC_2vUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF312A19591C006DDBD3 /* PC_2vUITestsLaunchTests.swift */; };
+		FA82DF3F2A1959D9006DDBD3 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF3E2A1959D9006DDBD3 /* CharacterTableViewCell.swift */; };
+		FA82DF412A195AB6006DDBD3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF402A195AB6006DDBD3 /* Response.swift */; };
+		FA82DF432A195B2A006DDBD3 /* HomaViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82DF422A195B2A006DDBD3 /* HomaViewControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FA82DF2B2A19591C006DDBD3 /* PC_2vUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PC_2vUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA82DF2F2A19591C006DDBD3 /* PC_2vUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_2vUITests.swift; sourceTree = "<group>"; };
 		FA82DF312A19591C006DDBD3 /* PC_2vUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_2vUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA82DF3E2A1959D9006DDBD3 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		FA82DF402A195AB6006DDBD3 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FA82DF422A195B2A006DDBD3 /* HomaViewControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomaViewControll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				FA82DF172A19591B006DDBD3 /* Assets.xcassets */,
 				FA82DF192A19591B006DDBD3 /* LaunchScreen.storyboard */,
 				FA82DF1C2A19591B006DDBD3 /* Info.plist */,
+				FA82DF3E2A1959D9006DDBD3 /* CharacterTableViewCell.swift */,
+				FA82DF402A195AB6006DDBD3 /* Response.swift */,
+				FA82DF422A195B2A006DDBD3 /* HomaViewControll.swift */,
 			);
 			path = PC_2v;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA82DF432A195B2A006DDBD3 /* HomaViewControll.swift in Sources */,
 				FA82DF132A19591A006DDBD3 /* ViewController.swift in Sources */,
 				FA82DF0F2A19591A006DDBD3 /* AppDelegate.swift in Sources */,
 				FA82DF112A19591A006DDBD3 /* SceneDelegate.swift in Sources */,
+				FA82DF3F2A1959D9006DDBD3 /* CharacterTableViewCell.swift in Sources */,
+				FA82DF412A195AB6006DDBD3 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
